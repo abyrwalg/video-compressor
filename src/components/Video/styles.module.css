@@ -1,0 +1,45 @@
+.Video {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  max-width: 250px;
+  position: relative;
+
+  display: flex;
+  width: 100%;
+}
+
+.deleteButton {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  z-index: 2;
+
+  width: 24px;
+  height: 24px;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #e53935;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.deleteButton:hover {
+  background: #d32f2f;
+  border-color: unset;
+}

@@ -68,6 +68,7 @@ export default [
         'warn',
         { argsIgnorePattern: '^_', varsIgnorePattern: '^(React|_)' },
       ],
+      'react/jsx-uses-vars': 'error',
       'no-console': ['warn', { allow: ['warn', 'error'] }],
 
       // ---- Imports (same spirit as backend)
